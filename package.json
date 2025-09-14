@@ -11,13 +11,12 @@
     "generate-sitemap": "node generate-sitemap.js"
   },
   "dependencies": {
-    "@emailjs/browser": "^4.3.3",
+    "@emailjs/browser": "^4.4.1",
     "@reduxjs/toolkit": "^2.8.2",
     "axios": "^1.12.1",
     "canvas-confetti": "^1.9.3",
     "dotenv": "^16.4.5",
     "emailjs": "^4.0.3",
-    "emailjs-com": "^3.2.0",
     "express": "^4.21.2",
     "file-saver": "^2.0.5",
     "firebase": "^12.2.0",
@@ -48,14 +47,14 @@
     "reactjs-popup": "^2.0.6",
     "sitemap": "^8.0.0",
     "slick-carousel": "^1.8.1",
-    "styled-component": "^2.8.0",
-    "styled-components": "^6.1.15",
-    "sweetalert2": "^11.19.1"
+    "styled-components": "^6.1.19",
+    "sweetalert2": "^11.19.1",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@types/nodemailer": "^6.4.17",
-    "@types/react": "^19.1.13",
-    "@types/react-dom": "^18.2.22",
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^4.7.0",
     "autoprefixer": "^10.4.21",
     "eslint": "^8.57.1",
@@ -64,6 +63,8 @@
     "eslint-plugin-react-refresh": "^0.4.18",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10",
-    "vite": "^7.1.5"
+    "vite": "^7.1.5",
+    "vite-plugin-eslint": "^1.8.1",
+    "vitest": "^3.2.4"
   }
 }

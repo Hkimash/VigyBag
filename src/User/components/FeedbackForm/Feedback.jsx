@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Swal from "sweetalert2";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 import "./feedback.css";
 import "./Sweetpopup.css";
 
